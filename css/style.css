@@ -1,14 +1,163 @@
-
 /* Importing font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-body{
+body {
     font-family: "Inter", sans-serif;
-
+    max-width: 1440px;
+    margin: 0 auto;
 }
+
 /* Clear browser auto margin and padding */
-*{  
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background: #111111;
+    color: white;
+
+}
+
+.nav-container {
+    background: #111111;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.site-name {
+    width: 50%;
+ 
+}
+
+.site-name h2 {
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #E6533C;
+}
+.nav-btn-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.433);
+    border-radius: 10px;
+} 
+.nav-btn-container button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-btn-container button:hover {
+    background-color: #E6533C;
+    color: white;
+}
+.nav-container .ham-menubar{
+    width: 50%;
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    margin-right: 20px;
+}
+
+.colorful{
+    background-color: #E6533C;
+}
+
+/* Banner style css */
+.banner-container{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.banner-text-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-img-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner-img-container{
+    position: relative;
+}
+.banner-text h1{
+    font-size: 5rem;
+    font-weight: 800;
+}
+/* .banner-text #shape-style{
+    font-weight: 400;
+} */
+
+.banner-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.banner-btn button{
+    width: fit-content;
+    padding: 16px 40px;
+    border-radius: 42px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+.workout{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    position: absolute;
+    top: 22%;
+    left: 58%;
+    padding: 24px 16px;
+}
+.workout p, h2{
+    background: none;
+}
+
+.tutorial{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    padding: 24px 16px;
+    display: flex;
+    gap: 10px;
+}
+.tutorial-text, .tutorial-text p, h2{
+    background: none;
+}
+
+.tutorial .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
+}
+.play-btn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #E6533C;
+    display: none;
 }

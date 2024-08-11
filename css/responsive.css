@@ -1,0 +1,55 @@
+/* responsive css dor nav menu */
+
+
+@media only screen and (max-width: 1440px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 576px) {
+    .nav-btn-container {
+        display: none;
+    }
+
+    .nav-container .ham-menubar {
+        display: flex;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-container .banner-text-container {
+        width: 100%;
+        align-items: center;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-text-container {
+        width: 100%;
+    }
+
+    .banner-img-container {
+        width: 100%;
+    }
+
+    .workout {
+        top: 10%;
+        left: 58%;
+    }
+
+    .tutorial {
+        top: 42%;
+        left: 10%;
+    }
+    .play-btn{
+        display:flex;
+    }
+
+}
