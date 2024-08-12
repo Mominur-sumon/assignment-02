@@ -1,7 +1,7 @@
 /* responsive css dor nav menu */
 
 @media only screen and (min-width:769px) and (max-width: 1440px) {
-    
+
 }
 
 @media only screen and (min-width:577px) and (max-width: 768px) {
@@ -22,7 +22,19 @@
         width: 80%;
         margin-bottom: 15px;
     }
-
+    .team-members .member .member-img img{
+        border-radius: 10px;
+     
+    }
+    .team-members .member .member-text{
+        position: absolute;
+        top: 70%;
+        left: 10%;
+    }
+    .team-members .member .member-text h3{
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
 
 }
 
@@ -98,14 +110,23 @@
         width: 100%;
     }
 
+    /* Team Members section responsive css */
+    .team-members{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
     .contact-section-container {
         flex-direction: column;
-
     }
+
 
     .contact-section-container .fitness-text {
         width: 80%;
         margin-bottom: 15px;
+    }
+    .contact-section-container .fitness-text h2{
+        font-size: 2rem;
     }
 
     .contact-section-container .service-container h2 {
