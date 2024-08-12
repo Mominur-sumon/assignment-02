@@ -5,6 +5,8 @@ body {
     font-family: "Inter", sans-serif;
     max-width: 1440px;
     margin: 0 auto;
+    background: #111111;
+    color: white;
 }
 
 /* Clear browser auto margin and padding */
@@ -12,8 +14,6 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: #111111;
-    color: white;
 
 }
 
@@ -52,6 +52,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
+    color: rgb(15, 14, 14);
 }
 .nav-btn-container button:hover {
     background-color: #E6533C;
@@ -280,3 +281,204 @@ body {
     width: 80%;
     border-radius: 10px;
 }
+/* BMI section styles */
+
+.bmi-section-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #E6533C;
+    margin: 0 auto;
+}
+.bmi-section-container .bmi-text{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bmi-section-container .bmi-text h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.bmi-section-container .bmi-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-form-container{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    border: 2px solid #b49691;
+}
+
+.bmi-form-container .bmi-chart{
+    width: 50%;
+    background-color: rgb(24, 24, 24);
+    border: 2px solid #b49691;
+    margin: 0 auto;
+    padding: 20px;
+}
+.bmi-form-container .bmi-chart table{
+    margin: 0 auto;
+}
+.bmi-form-container .bmi-chart table th,td{
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 2px solid #b49691;
+}
+.bmi-form-container .bmi-form{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(24, 24, 24);
+    border: 2px solid #b49691;
+
+}
+
+/* Team section styles */
+
+.team-section-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border: 2px  solid green;
+}
+.team-section-container .team-text{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px  solid rgb(128, 41, 0);
+}
+.team-section-container .team-text h2{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.team-section-container .team-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.team-members{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #e98e0e;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: rgb(24, 24, 24);
+}
+.team-members .member{
+    border: 2px solid #500ee9;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.team-members .member .member-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+ 
+}
+.team-members .member .member-text{
+    position: absolute;
+    top: 20%;
+    left: 100px;
+}
+
+.contact-section-container{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    border-radius: 10px 10px 0 0;
+
+}
+.service-container{
+    width: 50%;
+    display: flex;
+    margin-top: 20px;
+   padding-bottom: 20px;
+}
+.service-container .get-started{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.service-container .get-started h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.service-container .get-started a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+}
+
+.fitness-text{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.fitness-text h2{
+    font-size: 4.25rem;
+    font-weight: 900;
+    color: #E6533C;
+}
+.fitness-text p{
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#footer-line{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.1);
+}
+.footer-section{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius:  0 0 10px 10px;
+    padding-bottom: 10px;
+}
+.footer-section p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+
+
+
