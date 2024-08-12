@@ -167,7 +167,6 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    border: 2px  solid gray;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -197,10 +196,10 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    border: 2px solid red;
 }
 .habits-card-container .card .card-img img{
     width: 80%;
+    border: 2px solid gray;
     border-radius: 50%;
     margin-left: 10%;
 }
@@ -224,4 +223,60 @@ body {
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
 
+}
+
+/* Run section styles */
+.run-section-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+}
+.run-section-container .run-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 34px;
+    background-color: rgb(24, 24, 24);
+}
+
+.run-section-container .run-text h2{
+    font-size: 3rem;
+    font-weight: 900;
+    background-color: rgb(24, 24, 24);
+}
+.run-section-container .run-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(24, 24, 24);
+}
+.run-section-container .run-text button{
+    width: 40%;
+    padding: 16px 40px;
+    border-radius: 42px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: #E6533C;
+
+}
+
+.run-section-container .run-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+    
+}
+.run-section-container .run-img img{
+    width: 80%;
+    border-radius: 10px;
 }

@@ -62,6 +62,20 @@
         font-size: 2rem;
     }    
 
+    .run-section-container{
+        flex-direction: column;
+    }
+
+    .run-section-container .run-text{
+        width: 100%;
+        margin-bottom: 15px;
+    }   
+    .run-section-container .run-img{
+        width: 100%;
+    } 
+    .run-section-container .run-img img{
+        width: 100%;
+    }
 }
 
 
