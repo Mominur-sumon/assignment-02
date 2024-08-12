@@ -1,14 +1,31 @@
 /* responsive css dor nav menu */
 
+@media only screen and (min-width:769px) and (max-width: 1440px) {
+    
+}
+
 @media only screen and (min-width:577px) and (max-width: 768px) {
     .nav-btn-container {
         display: none;
     }
+    .contact-section-container{
+        flex-direction: column;
+    }
+
+    .contact-section-container .service-container{
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+
+    .contact-section-container .fitness-text {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
 
 }
-@media only screen and (min-width:769px) and  (max-width: 1440px) {
 
-}
 
 
 
@@ -52,30 +69,57 @@
         left: 10%;
     }
 
-    .habits-card-container{
+    .habits-card-container {
         grid-template-columns: repeat(1, 1fr);
     }
-    .habit-secion-container .habit-text-container{
+
+    .habit-secion-container .habit-text-container {
         width: 90%;
     }
-    .habit-secion-container .habit-text-container h2{
-        font-size: 2rem;
-    }    
 
-    .run-section-container{
+    .habit-secion-container .habit-text-container h2 {
+        font-size: 2rem;
+    }
+
+    .run-section-container {
         flex-direction: column;
     }
 
-    .run-section-container .run-text{
+    .run-section-container .run-text {
         width: 100%;
         margin-bottom: 15px;
-    }   
-    .run-section-container .run-img{
-        width: 100%;
-    } 
-    .run-section-container .run-img img{
+    }
+
+    .run-section-container .run-img {
         width: 100%;
     }
+
+    .run-section-container .run-img img {
+        width: 100%;
+    }
+
+    .contact-section-container {
+        flex-direction: column;
+
+    }
+
+    .contact-section-container .fitness-text {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    .contact-section-container .service-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .service-container {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .service-container .get-started {
+        margin-bottom: 15px;
+    }
 }
-
-
