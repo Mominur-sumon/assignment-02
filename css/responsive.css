@@ -55,6 +55,12 @@
     .habits-card-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .habit-secion-container .habit-text-container{
+        width: 90%;
+    }
+    .habit-secion-container .habit-text-container h2{
+        font-size: 2rem;
+    }    
 
 }
 
