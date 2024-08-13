@@ -13,9 +13,21 @@
     .nav-btn-container{
         width: 60%;
     }
+
+    .banner-btn button {
+        width: fit-content;
+        padding: 16px 30px;
+        font-size: .8rem;
+        font-weight: 500;
+    }
     .habits-card-container{
 
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .run-section-container .run-text button {
+        width: 200px;
+    
     }
 
     /* BMI section responsive code */
@@ -41,7 +53,7 @@
         width: 100%;
         margin-left: 2.5%;
     }
-
+   
     /* Contact Section  */
     .contact-section-container .service-container{
         width: 80%;
@@ -176,12 +188,30 @@
         margin-left: 2.5%;
     }
 
+    .bmi-input button {
+        width: 200px;
+    }
+
     /* Team Members section responsive css */
     .team-members{
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     }
+    .team-section-container .team-text {
+        width: 100%;
+    }
+    .team-section-container .team-text h2 {
+        font-size: 2rem;
+        font-weight: 600;
 
+    }
+    /* Succes section code */
+    .success-peoples {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    /* Contact Section code */
     .contact-section-container {
         flex-direction: column;
     }
