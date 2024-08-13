@@ -14,21 +14,19 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
+/* Navbar section styles */
+
 .nav-container {
-    background: #111111;
     max-width: 90%;
     margin: 0 auto;
     display: flex;
     margin-top: 50px;
-    
 }
 
 .site-name {
     width: 50%;
- 
 }
 
 .site-name h2 {
@@ -43,11 +41,11 @@ body {
     justify-content: space-around;
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.433);
-    border-radius: 10px;
+    border-radius: 20px;
 } 
 .nav-btn-container button {
     border: none;
-    padding: 5px 10px;
+    padding: 8px 25px;
     border-radius: 10px;
     font-size: 1rem;
     font-weight: 600;
@@ -102,11 +100,15 @@ body {
     font-size: 5rem;
     font-weight: 800;
 }
+.banner-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
 .banner-text #shape-style{
     font-weight: 400;
     font-family: 'Miama', sans-serif;
-    font-size: 10rem;
-                                                
+    font-size: 7rem;                                             
 }
 
 .banner-text p{
@@ -242,8 +244,8 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
-    background-color: rgb(24, 24, 24);
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .run-section-container .run-text{
     width: 50%;
@@ -251,19 +253,16 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 34px;
-    background-color: rgb(24, 24, 24);
 }
 
 .run-section-container .run-text h2{
     font-size: 3rem;
     font-weight: 900;
-    background-color: rgb(24, 24, 24);
 }
 .run-section-container .run-text p{
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-    background-color: rgb(24, 24, 24);
 }
 .run-section-container .run-text button{
     width: 40%;
@@ -282,7 +281,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(24, 24, 24);
     
 }
 .run-section-container .run-img img{
@@ -295,14 +293,13 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: 2px solid #E6533C;
     margin: 0 auto;
 }
 .bmi-section-container .bmi-text{
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -310,6 +307,7 @@ body {
 .bmi-section-container .bmi-text h2{
     font-size: 3rem;
     font-weight: 900;
+    
 }
 .bmi-section-container .bmi-text p{
     font-size: 1rem;
@@ -322,36 +320,80 @@ body {
     display: flex;
     gap: 20px;
     padding: 20px;
-    background-color: rgb(24, 24, 24);
     border-radius: 10px;
-    border: 2px solid #b49691;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .bmi-form-container .bmi-chart{
     width: 50%;
-    background-color: rgb(24, 24, 24);
-    border: 2px solid #b49691;
     margin: 0 auto;
     padding: 20px;
 }
+.bmi-form-container .bmi-chart h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
 .bmi-form-container .bmi-chart table{
     margin: 0 auto;
+    border-collapse: collapse;
+    
 }
 .bmi-form-container .bmi-chart table th,td{
     font-size: 1.25rem;
     font-weight: 600;
     border: 2px solid #b49691;
+    padding: 10px;
+
+}
+.bmi-form-container .bmi-chart td{
+    font-size: 0.8rem;
+    font-weight: 400;
 }
 .bmi-form-container .bmi-form{
     width: 50%;
-    height: 200px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
-    background-color: rgb(24, 24, 24);
-    border: 2px solid #b49691;
 
 }
+
+.bmi-form-container .bmi-form h2{
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+.bmi-form-container .bmi-form p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.8rem;
+}
+
+#height, #weight, #age, #sex{
+    width: 48%;
+    margin-bottom: 1%;
+    padding: 2%;
+    padding-left: 4%;
+    border-radius: 10px;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.1);
+}
+#sex{
+    color: rgba(255, 255, 255, 0.4);
+}
+#activity{
+    width: 97%;
+    margin-bottom: 1%;
+    padding: 2%;
+    padding-left: 3%;
+    border-radius: 10px;
+    border: none;
+    color: rgba(255, 255, 255, 0.4);
+    background-color:rgba(255, 255, 255, 0.1);
+}
+
 
 /* Team section styles */
 
@@ -427,8 +469,9 @@ body {
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-
 }
+
+/* Contact section styles */
 .contact-section-container{
     width: 100%;
     background-color: rgba(255, 255, 255, 0.1);

@@ -1,17 +1,48 @@
 /* responsive css dor nav menu */
 
-@media only screen and (min-width:769px) and (max-width: 1440px) {
-
-}
-
-@media only screen and (min-width:577px) and (max-width: 768px) {
-    .nav-btn-container {
-        display: none;
-    }
+@media only screen and (min-width:577px) and (max-width: 992px) {
     .contact-section-container{
         flex-direction: column;
     }
+    .nav-btn-container button {
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .nav-btn-container{
+        width: 60%;
+    }
+    .habits-card-container{
 
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* BMI section responsive code */
+
+    .bmi-form-container{
+        flex-direction: column;
+    }
+    .bmi-section-container .bmi-text{
+        width: 93%;
+    }
+    .bmi-form-container .bmi-chart{
+        width: 100%;
+        align-items: left;
+    }
+    .bmi-form-container .bmi-chart h2{
+        text-align: left;
+    }
+    
+    .bmi-form-container .bmi-chart table{
+        margin: 0 ;        
+    }
+    .bmi-form-container .bmi-form{
+        width: 100%;
+        margin-left: 2.5%;
+    }
+
+    /* Contact Section  */
     .contact-section-container .service-container{
         width: 80%;
         margin-left: 10%;
@@ -36,6 +67,8 @@
         font-weight: 600;
     }
 
+    
+
 }
 
 
@@ -50,6 +83,7 @@
         display: flex;
     }
 
+    /* Banner section */
     .banner-container {
         flex-direction: column;
     }
@@ -66,7 +100,15 @@
     .banner-text-container {
         width: 100%;
     }
+    .banner-text h1{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
 
+    .banner-text #shape-style{
+        font-size: 3.5rem;
+                                                    
+    }
     .banner-img-container {
         width: 100%;
     }
@@ -108,6 +150,30 @@
 
     .run-section-container .run-img img {
         width: 100%;
+    }
+
+    /* BMI section responsive code */
+
+    .bmi-form-container{
+        flex-direction: column;
+    }
+    .bmi-section-container .bmi-text{
+        width: 90%;
+    }
+    .bmi-form-container .bmi-chart{
+        width: 100%;
+        align-items: left;
+    }
+    .bmi-form-container .bmi-chart h2{
+        text-align: left;
+    }
+    
+    .bmi-form-container .bmi-chart table{
+        margin: 0 ;        
+    }
+    .bmi-form-container .bmi-form{
+        width: 100%;
+        margin-left: 2.5%;
     }
 
     /* Team Members section responsive css */
