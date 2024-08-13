@@ -53,6 +53,16 @@
         width: 100%;
         margin-left: 2.5%;
     }
+
+    /* Success section */
+    .success-peoples .people {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .success-peoples .people .people-text {
+        top: 70%;
+    }
    
     /* Contact Section  */
     .contact-section-container .service-container{
