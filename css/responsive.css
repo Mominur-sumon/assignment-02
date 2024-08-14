@@ -196,6 +196,9 @@
         width: 100%;
         margin-bottom: 15px;
     }
+    .run-section-container .run-text .banner-btn{
+        width: 98%;
+    }
 
     .run-section-container .run-img {
         width: 100%;
