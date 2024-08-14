@@ -148,6 +148,10 @@
         font-size: 3.5rem;
                                                     
     }
+    .banner-btn {
+        width: 100%;
+        justify-content: center;
+    }
     .banner-btn button {
         width: fit-content;
         padding: 15px 25px;
