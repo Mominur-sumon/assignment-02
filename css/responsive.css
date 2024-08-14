@@ -32,11 +32,16 @@
 
         grid-template-columns: repeat(2, 1fr);
     }
+    .run-section-container .run-text {
+        width: 50%;
+        margin-right: 10%;
+    }
 
     .run-section-container .run-text button {
         width: 200px;
     
     }
+
 
     /* BMI section responsive code */
 
@@ -194,7 +199,10 @@
 
     .run-section-container .run-img img {
         width: 100%;
+        scale: 1.5;
+        transform-origin: 70% 38%;
     }
+
 
     /* BMI section responsive code */
 
