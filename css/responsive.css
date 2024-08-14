@@ -1,5 +1,9 @@
 /* responsive css dor nav menu */
-
+@media only screen and (min-width:993px){
+    .circle .play-btn{
+        display: none;
+    }
+}
 @media only screen and (min-width:577px) and (max-width: 992px) {
     .contact-section-container{
         flex-direction: column;
@@ -18,8 +22,12 @@
         width: fit-content;
         padding: 16px 30px;
         font-size: .8rem;
-        font-weight: 500;
+        font-weight: 600;
     }
+    .circle .play-btn{
+        display: none;
+    }
+   
     .habits-card-container{
 
         grid-template-columns: repeat(2, 1fr);
@@ -62,6 +70,10 @@
     }
     .success-peoples .people .people-text {
         top: 70%;
+    }
+
+    .plan-cards {
+        grid-template-columns: repeat(2, 1fr);
     }
    
     /* Contact Section  */
@@ -131,6 +143,12 @@
         font-size: 3.5rem;
                                                     
     }
+    .banner-btn button {
+        width: fit-content;
+        padding: 15px 25px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
     .banner-img-container {
         width: 100%;
     }
@@ -155,6 +173,10 @@
 
     .habit-secion-container .habit-text-container h2 {
         font-size: 2rem;
+    }
+    .habits-card-container .card .card-img {
+        width: 80%;
+        margin: 0 auto;
     }
 
     .run-section-container {
@@ -219,6 +241,14 @@
     .success-peoples {
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
+    }
+
+    /* Plan section code */
+    .plan-text {
+        width: 100%;
+    }
+    .plan-cards {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     /* Contact Section code */

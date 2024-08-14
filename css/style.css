@@ -625,6 +625,100 @@ td {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.plan-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.plan-text {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.plan-container .plan-text p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.plan-container .plan-text h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    color: #E6533C;
+}
+
+.plan-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.plan-cards .card {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 10px rgba(255, 250, 0, 0.5);
+}
+.plan-cards .card:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.plan-cards .card .card-text {
+    text-align: center;
+}
+.plan-cards .card .card-text h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.plan-cards .card .card-text p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}   
+.plan-cards .card .card-text h2{
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: #E6533C;
+} 
+
+.plan-cards .card .card-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.plan-cards .card .card-text button {
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 42px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: #E6533C;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
 /* Contact section styles */
 .contact-section-container {
     width: 100%;
