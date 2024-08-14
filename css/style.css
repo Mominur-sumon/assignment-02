@@ -279,6 +279,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     gap: 34px;
+    margin-left: 2.5%;
     margin-right: 20%;
 }
 
