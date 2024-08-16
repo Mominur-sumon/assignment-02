@@ -48,8 +48,8 @@ body {
 
 .nav-btn-container button {
     border: none;
-    padding: 8px 25px;
-    border-radius: 10px;
+    padding: 11px 25px;
+    border-radius: 18px;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
